@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Home',
     description: 'Welcome to my awesome website. Discover smart devices designed to enhance your everyday life.',
-    images: ['/og-image.jpg'],
+    images: ['/smartHome.jpeg'],
     url: 'https://www.myawesomewebsite.com/',
   },
 };
