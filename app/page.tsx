@@ -17,7 +17,7 @@ export const metadata: Metadata = {
 const heroData = {
   title: 'Unlock Smart Living',
   description: 'Experience a new level of convenience with smart devices that transform your daily life...',
-  imageSrc: '/smartLife.jpeg',
+  imageSrc: '/smartHome.jpeg',
   imageAlt: 'Smart Life',
 };
 
