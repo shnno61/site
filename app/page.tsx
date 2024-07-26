@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   description: 'Welcome to my awesome website. Discover smart devices designed to enhance your everyday life.',
   metadataBase: new URL('https://www.myawesomewebsite.com/'),
   openGraph: {
-    title: 'Home',
+    title: 'Unlock Smart Living',
     description: 'Welcome to my awesome website. Discover smart devices designed to enhance your everyday life.',
     images: ['/smartHome.jpeg'],
     url: 'https://www.myawesomewebsite.com/',
