@@ -68,7 +68,7 @@ export default function Navbar() {
       })}>
         <div className="flex flex-col items-center p-4">
           <button
-            className="self-end mb-4 p-2 rounded-full bg-gray-200 hover:bg-gray-300 transition-colors duration-300"
+            className="self-end mb-4 p-2 rounded-full bg-blue-400 hover:bg-gray-300 transition-colors duration-300"
             onClick={toggleMobileMenu}
           >
             <Image 
