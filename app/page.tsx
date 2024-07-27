@@ -3,12 +3,12 @@ import ImageTextGrid from '@/components/ImageTextGrid';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Home',
-  description: 'Welcome to my awesome website. Discover smart devices designed to enhance your everyday life.',
+  title: 'Live Smart',
+  description: 'Experience a new level of convenience with smart devices that transform your daily life.',
   metadataBase: new URL('https://www.myawesomewebsite.com/'),
   openGraph: {
     title: 'Unlock Smart Living',
-    description: 'Welcome to my awesome website. Discover smart devices designed to enhance your everyday life.',
+    description: 'Experience a new level of convenience with smart devices that transform your daily life',
     images: ['/smartHome.jpeg'],
     url: 'https://www.myawesomewebsite.com/',
   },

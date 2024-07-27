@@ -3,7 +3,7 @@ import ImageTextButtonGrid from '@/components/ImageTextButtonGrid';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Smart Home',
+  title: 'Live Smart',
   description: 'Discover smart devices designed to enhance your everyday life.',
   metadataBase: new URL('https://www.myawesomewebsite.com/'),
   openGraph: {
