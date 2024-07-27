@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     url: 'https://www.myawesomewebsite.com/smartHome',
   } 
 };
-
+ 
 const page = () => {
   const heroData = {
     title: 'Smart Wearables',
