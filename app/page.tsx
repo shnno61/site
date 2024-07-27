@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     url: 'https://www.myawesomewebsite.com/',
   },
 };
-
+ 
 const heroData = {
   title: 'Unlock Smart Living',
   description: 'Experience a new level of convenience with smart devices that transform your daily life...',
