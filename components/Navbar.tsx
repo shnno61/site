@@ -6,7 +6,6 @@ import Image from 'next/image';
 import { usePathname } from 'next/navigation';
 import clsx from 'clsx';
 import { NAV_LINKS } from '@/constants';
-import Button from './Button';
 
 export default function Navbar() {
   const pathname = usePathname();
