@@ -17,7 +17,7 @@ export const metadata: Metadata = {
 const page = () => {
   const heroData = {
     title: 'Smart Wearables',
-    description: 'Revolutionize your living space with cutting-edge smart home devices.',
+    description: 'Elevate your lifestyle with versatile smart wearables. From tracking fitness and health to enhancing daily activities, these devices blend functionality and style to keep you connected and informed.',
     imageSrc: '/smartWearables.jpeg',
     imageAlt: 'Smart Home',
   };

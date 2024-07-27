@@ -14,7 +14,7 @@ interface ImageTextButtonGridProps {
 
 const ImageTextButtonGrid = ({ cards }: ImageTextButtonGridProps) => {
   return (
-    <div className="container mx-auto px-4 sm:px-6 md:px-8 lg:px-12 xl:px-16 2xl:px-20 3xl:px-24 4xl:px-28 py-8 sm:py-10 md:py-12 lg:py-16 xl:py-20 2xl:py-24 3xl:py-28 4xl:py-32">
+    <div className="container mx-auto px-8 xs:px-4 sm:px-15 md:px-8 lg:px-12 xl:px-16 2xl:px-20 3xl:px-24 4xl:px-28 py-8 sm:py-10 md:py-12 lg:py-16 xl:py-20 2xl:py-24 3xl:py-28 4xl:py-32">
       <h2 className="text-2xl pb-20 md:text-3xl lg:text-4xl font-bold text-center">
         Explore Different Categories of Smart Devices
       </h2>
