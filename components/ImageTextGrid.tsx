@@ -22,22 +22,20 @@ const ImageTextGrid = ({ cards }: ImageTextGridProps) => {
         {cards.slice(0, 4).map((card, index) => (
           <div key={index} className="col-span-1 px-2 md:px-4 4xl:px-2">
             <ImageTextCard 
-              src={card.src} 
-              alt={card.alt} 
-              mainText={card.mainText} 
-              hoverText={card.hoverText} 
-              slug={card.slug} 
-            />
+              src={card.src}
+              alt={card.alt}
+              mainText={card.mainText}
+              hoverText={card.hoverText}
+              slug={card.slug} id={''}            />
           </div>
         ))}
         <div className="col-span-1 flex justify-center px-2 md:px-4 2xl:px-1 4xl:px-4">
           <ImageTextCard 
-            src={cards[4].src} 
-            alt={cards[4].alt} 
-            mainText={cards[4].mainText} 
-            hoverText={cards[4].hoverText} 
-            slug={cards[4].slug} 
-          />
+            src={cards[4].src}
+            alt={cards[4].alt}
+            mainText={cards[4].mainText}
+            hoverText={cards[4].hoverText}
+            slug={cards[4].slug} id={''}          />
         </div>
       </div>
     </>
