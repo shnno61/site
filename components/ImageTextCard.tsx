@@ -54,7 +54,7 @@ const ImageTextCard = ({ src, alt, mainText, hoverText, slug, id }: ImageTextCar
                 title="Learn More"
                 ariaLabel={`Learn more about ${mainText}`}
                 variant="btn_solid"
-                className="transition-transform duration-300 transform hover:scale-105 px-3 py-1.5 xs:px-4 xs:py-2 sm:px-4 sm:py-2.5 md:px-5 md:py-3 lg:px-6 lg:py-3.5 xl:px-6 xl:py-4 2xl:px-8 2xl:py-5 text-xs xs:text-sm sm:text-base md:text-base lg:text-lg xl:text-base 2xl:text-lg bg-blue-600 text-white rounded-lg shadow-md hover:bg-blue-700"
+                className="transition-transform duration-300 transform hover:scale-105 px-3 py-1.5 xs:px-3 xs:py-1.5 sm:px-3.5 sm:py-2.5 md:px-4 md:py-2 lg:px-5 lg:py-2.5 xl:px-6 xl:py-3 2xl:px-7 2xl:py-3.5 text-xs xs:text-sm sm:text-base md:text-base lg:text-lg xl:text-base 2xl:text-lg bg-blue-600 text-white rounded-lg shadow-md hover:bg-blue-700"
               >
                 Learn More
               </Button>
