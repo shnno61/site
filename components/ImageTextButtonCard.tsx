@@ -1,3 +1,5 @@
+"use client"
+import React, { useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import Button from './Button';
@@ -13,12 +15,24 @@ interface ImageTextButtonCardProps {
 
 const ImageTextButtonCard = ({ src, alt, mainText, description, slug, index }: ImageTextButtonCardProps) => {
   const isReversed = index % 2 !== 0;
+  const [isTouched, setIsTouched] = useState(false);
+
+  const handleTouchStart = () => {
+    setIsTouched(true);
+  };
+
+  const handleTouchEnd = () => {
+    setIsTouched(false);
+  };
 
   return (
-    <div className={`flex flex-col lg:flex-row ${isReversed ? 'lg:flex-row-reverse' : 'lg:flex-row'} 
-      bg-gray-800 shadow-lg rounded-xl overflow-hidden border border-gray-200 
-      transition-transform transform hover:scale-105 mx-auto max-w-screen-xl 
-      hover:bg-yellow-700`}>
+    <div
+      className={`flex flex-col lg:flex-row ${isReversed ? 'lg:flex-row-reverse' : 'lg:flex-row'} 
+        bg-gray-800 shadow-lg rounded-xl overflow-hidden border border-gray-200 
+        transition-transform transform ${isTouched ? 'scale-105 bg-yellow-700' : ''} hover:scale-105 hover:bg-yellow-700 mx-auto max-w-screen-xl`}
+      onTouchStart={handleTouchStart}
+      onTouchEnd={handleTouchEnd}
+    >
       <div className={`relative w-full ${isReversed ? 'lg:ml-8' : 'lg:mr-8'} p-2`}>
         <div className="relative w-full h-48 sm:h-56 md:h-64 lg:h-56 xl:h-72 2xl:h-80 overflow-hidden rounded-xl">
           <Image
@@ -52,3 +66,4 @@ const ImageTextButtonCard = ({ src, alt, mainText, description, slug, index }: I
 };
 
 export default ImageTextButtonCard;
+
