@@ -63,7 +63,7 @@ export default function Navbar() {
       </button>
 
       {/* Mobile Menu */}
-      <div className={clsx("fixed top-0 right-0 h-2/3 w-1/3 bg-gradient-to-r from-gray-100 to-gray-200 shadow-lg rounded-l-xl lg:hidden transition-transform duration-300 transform-gpu", {
+      <div className={clsx("fixed top-0 right-0 h-8/10 w-1/3 bg-gradient-to-r from-gray-100 to-gray-200 shadow-lg rounded-l-xl lg:hidden transition-transform duration-300 transform-gpu", {
         'translate-x-full': !isMobileMenuOpen,
         'translate-x-0': isMobileMenuOpen,
       })}>
