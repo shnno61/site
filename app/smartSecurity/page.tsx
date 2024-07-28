@@ -3,31 +3,30 @@ import ImageTextButtonGrid from '@/components/ImageTextButtonGrid';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Live Smart',
-  description: 'Discover smart devices designed to enhance your everyday life.',
+  title: 'Smart Security Devices',
+  description: 'Discover smart security devices designed to protect your home and loved ones.',
   metadataBase: new URL('https://www.myawesomewebsite.com/'),
   openGraph: {
-    title: 'Smart Home',
-    description: 'Discover smart devices designed to enhance your everyday life.',
-    images: ['/smartHome.jpeg'],
-    url: 'https://www.myawesomewebsite.com/smartHome',
-  } 
+    title: 'Smart Security Devices',
+    description: 'Discover smart security devices designed to protect your home and loved ones.',
+    images: ['/smartSecurity.jpeg'],
+    url: 'https://www.myawesomewebsite.com/smartSecurity',
+  }
 };
 
 const page = () => {
   const heroData = {
-    title: 'Smart Security',
-    description: 'Protect what matters most with advanced smart security devices. Ensure the safety of your home and loved ones with intelligent, reliable solutions that provide peace of mind and round-the-clock monitoring.',
+    title: 'Smart Security Devices',
+    description: 'Protect what matters most with smart security devices. Safety, reliability, and continuous monitoring.',
     imageSrc: '/smartSecurity.jpeg',
-    imageAlt: 'Smart Home', 
+    imageAlt: 'Smart Security Devices',
   };
 
   const cards = [
-    { src: '/smartHome.jpeg', alt: 'Smart Home', mainText: 'Smart Home', description: 'Revolutionize your living space with cutting-edge smart home devices...', slug: 'smartHome' },
-    { src: '/smartOffice.jpeg', alt: 'Smart Office', mainText: 'Smart Office', description: 'Boost your productivity with state-of-the-art smart office devices...', slug: 'smartOffice' },
-    { src: '/smartHealth.jpeg', alt: 'Smart Health', mainText: 'Smart Health', description: 'Take control of your well-being with innovative smart health devices...', slug: 'smartHealth' },
-    { src: '/smartSecurity.jpeg', alt: 'Smart Security', mainText: 'Smart Security', description: 'Protect what matters most with advanced smart security devices...', slug: 'smartSecurity' },
-    { src: '/smartWearables.jpeg', alt: 'Smart Wearables', mainText: 'Smart Wearables', description: 'Elevate your lifestyle with versatile smart wearables...', slug: 'smartWearables' },
+    { src: '/smartSecurity/securityCameras.jpeg', alt: 'Security Cameras', mainText: 'Security Cameras', description: 'Monitor your property with high-quality indoor and outdoor cameras for complete surveillance.', slug: 'securityCameras' },
+    { src: '/smartSecurity/smartLocks.jpeg', alt: 'Smart Locks', mainText: 'Smart Locks', description: 'Enhance security with advanced keypad and fingerprint locks for better home protection.', slug: 'smartLocks' },
+    { src: '/smartSecurity/securitySystems.jpeg', alt: 'Security Systems', mainText: 'Security Systems', description: 'Safeguard your home with integrated smart security systems for comprehensive protection.', slug: 'securitySystems' },
+    { src: '/smartSecurity/videoDoorbells.jpeg', alt: 'Video Doorbells', mainText: 'Video Doorbells', description: 'See and communicate with visitors using video doorbells for added convenience and safety.', slug: 'videoDoorbells' },
   ];
 
   return (

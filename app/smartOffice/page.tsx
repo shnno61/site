@@ -3,31 +3,30 @@ import ImageTextButtonGrid from '@/components/ImageTextButtonGrid';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Live Smart',
-  description: 'Discover smart devices designed to enhance your everyday life.',
+  title: 'Smart Office Devices',
+  description: 'Discover smart devices designed to enhance your productivity and office environment.',
   metadataBase: new URL('https://www.myawesomewebsite.com/'),
   openGraph: {
-    title: 'Smart Home',
-    description: 'Discover smart devices designed to enhance your everyday life.',
-    images: ['/smartHome.jpeg'],
-    url: 'https://www.myawesomewebsite.com/smartHome',
-  } 
+    title: 'Smart Office Devices',
+    description: 'Discover smart devices designed to enhance your productivity and office environment.',
+    images: ['/smartOffice.jpeg'],
+    url: 'https://www.myawesomewebsite.com/smartOffice',
+  }
 };
 
 const page = () => {
   const heroData = {
-    title: 'Smart Office',
-    description: 'Boost your productivity and enhance your work environment with state-of-the-art smart office devices. Create a workspace that adapts to your needs, ensuring efficiency, comfort, and seamless connectivity.',
-    imageSrc: '/smartOffice.jpeg',
-    imageAlt: 'Smart Home',
+    title: 'Smart Office Devices',
+    description: 'Boost your productivity with innovative smart office devices. Efficiency, comfort, and seamless connectivity.',
+    imageSrc: '/home/smartOffice.jpeg',
+    imageAlt: 'Smart Office Devices',
   };
 
   const cards = [
-    { src: '/smartHome.jpeg', alt: 'Smart Home', mainText: 'Smart Home', description: 'Revolutionize your living space with cutting-edge smart home devices...', slug: 'smartHome' },
-    { src: '/smartOffice.jpeg', alt: 'Smart Office', mainText: 'Smart Office', description: 'Boost your productivity with state-of-the-art smart office devices...', slug: 'smartOffice' },
-    { src: '/smartHealth.jpeg', alt: 'Smart Health', mainText: 'Smart Health', description: 'Take control of your well-being with innovative smart health devices...', slug: 'smartHealth' },
-    { src: '/smartSecurity.jpeg', alt: 'Smart Security', mainText: 'Smart Security', description: 'Protect what matters most with advanced smart security devices...', slug: 'smartSecurity' },
-    { src: '/smartWearables.jpeg', alt: 'Smart Wearables', mainText: 'Smart Wearables', description: 'Elevate your lifestyle with versatile smart wearables...', slug: 'smartWearables' },
+    { src: '/smartOffice/smartLighting.jpeg', alt: 'Smart Lighting', mainText: 'Smart Lighting', description: 'Boost productivity with smart desk lamps and ceiling lights for optimal illumination.', slug: 'smartLighting' },
+    { src: '/smartOffice/smartSecurity.jpeg', alt: 'Smart Security', mainText: 'Smart Security', description: 'Secure your workspace with advanced smart cameras and locks for enhanced protection.', slug: 'smartSecurity' },
+    { src: '/smartOffice/smartThermostats.jpeg', alt: 'Smart Thermostats', mainText: 'Smart Thermostats', description: 'Maintain a comfortable office with energy-efficient smart thermostats for consistent temperature.', slug: 'smartThermostats' },
+    { src: '/smartOffice/smartProductivity.jpeg', alt: 'Smart Productivity Devices', mainText: 'Smart Productivity Devices', description: 'Increase efficiency with smart printers, desks, and voice assistants for streamlined work.', slug: 'smartProductivity' },
   ];
 
   return (

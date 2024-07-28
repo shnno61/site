@@ -3,31 +3,33 @@ import ImageTextButtonGrid from '@/components/ImageTextButtonGrid';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Live Smart',
+  title: 'Smart Home Devices',
   description: 'Discover smart devices designed to enhance your everyday life.',
   metadataBase: new URL('https://www.myawesomewebsite.com/'),
   openGraph: {
-    title: 'Smart Home',
+    title: 'Smart Home Devices',
     description: 'Discover smart devices designed to enhance your everyday life.',
     images: ['/smartHome.jpeg'],
     url: 'https://www.myawesomewebsite.com/smartHome',
-  } 
+  }
 };
 
 const page = () => {
   const heroData = {
-    title: 'Smart Home',
+    title: 'Smart Home Devices',
     description: 'Revolutionize your living space with cutting-edge smart home devices. Transform everyday living into a seamless, futuristic experience where comfort, convenience, and security are always at your fingertips.',
-    imageSrc: '/smartHome.jpeg',
-    imageAlt: 'Smart Home',
+    imageSrc: '/home/smartHome.jpeg',
+    imageAlt: 'Smart Home Devices',
   };
 
   const cards = [
-    { src: '/smartHome.jpeg', alt: 'Smart Home', mainText: 'Smart Home', description: 'Revolutionize your living space with cutting-edge smart home devices...', slug: 'smartHome' },
-    { src: '/smartOffice.jpeg', alt: 'Smart Office', mainText: 'Smart Office', description: 'Boost your productivity with state-of-the-art smart office devices...', slug: 'smartOffice' },
-    { src: '/smartHealth.jpeg', alt: 'Smart Health', mainText: 'Smart Health', description: 'Take control of your well-being with innovative smart health devices...', slug: 'smartHealth' },
-    { src: '/smartSecurity.jpeg', alt: 'Smart Security', mainText: 'Smart Security', description: 'Protect what matters most with advanced smart security devices...', slug: 'smartSecurity' },
-    { src: '/smartWearables.jpeg', alt: 'Smart Wearables', mainText: 'Smart Wearables', description: 'Elevate your lifestyle with versatile smart wearables...', slug: 'smartWearables' },
+    { src: '/smartHome/smartLighting.jpeg', alt: 'Smart Lighting', mainText: 'Smart Lighting', description: 'Illuminate your home with intelligent lighting solutions for control and ambiance...', slug: 'smartLighting' },
+    { src: '/smartHome/smartHomeSecurity.jpeg', alt: 'Smart Security', mainText: 'Smart Security', description: 'Protect your home with advanced security cameras, smart locks, and video doorbells..', slug: 'smartSecurity' },
+    { src: '/smartHome/smartThermostats.jpeg', alt: 'Smart Thermostats', mainText: 'Smart Thermostats', description: 'Optimize your home\'s climate with pretty, intelligent, energy-efficient thermostats...', slug: 'smartThermostats' },
+    { src: '/smartHome/smartKitchen.jpeg', alt: 'Smart Kitchen Appliances', mainText: 'Smart Kitchen Appliances', description: 'Upgrade your kitchen with smart refrigerators, ovens, coffee makers, and dishwashers.', slug: 'smartKitchen' },
+    { src: '/smartHome/smartEntertainment.jpeg', alt: 'Smart Home Entertainment', mainText: 'Smart Home Entertainment', description: 'Enhance entertainment with smart TVs, speakers, soundbars, projectors, and lamps.', slug: 'smartEntertainment' },
+    { src: '/smartHome/smartCleaning.jpeg', alt: 'Smart Cleaning Devices', mainText: 'Smart Cleaning Devices', description: 'Keep your home clean with robot vacuums, smart mops, and air purifiers for easy maintenance.', slug: 'smartCleaning' },
+    { src: '/smartHome/smartGarden.jpeg', alt: 'Smart Garden and Outdoor Devices', mainText: 'Smart Garden and Outdoor Devices', description: 'Manage your outdoor space with smart irrigation, efficient lighting, and sensors......', slug: 'smartGarden' },
   ];
 
   return (

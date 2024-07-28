@@ -3,13 +3,13 @@ import ImageTextGrid from '@/components/ImageTextGrid';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Live Smart',
+  title: 'Smart Life',
   description: 'Experience a new level of convenience with smart devices that transform your daily life.',
   metadataBase: new URL('https://www.myawesomewebsite.com/'),
   openGraph: {
     title: 'Unlock Smart Living',
     description: 'Experience a new level of convenience with smart devices that transform your daily life',
-    images: ['/smartHome.jpeg'],
+    images: ['/home/smartHome.jpeg'],
     url: 'https://www.myawesomewebsite.com/',
   },
 };
@@ -17,16 +17,16 @@ export const metadata: Metadata = {
 const heroData = {
   title: 'Unlock Smart Living',
   description: 'Experience effortless living with smart devices that bring convenience and security to your fingertips, making everyday tasks simpler and your home more comfortable.',
-  imageSrc: '/smartHome.jpeg',
+  imageSrc: '/home/smartLife.jpeg',
   imageAlt: 'Smart Life',
 };
 
 const cardsData = [
-  { src: '/smartHome.jpeg', alt: 'smartHome', mainText: 'Smart Home', hoverText: 'Revolutionize your living space with cutting-edge smart home devices...', slug: 'smartHome' },
-  { src: '/smartOffice.jpeg', alt: 'smartOffice', mainText: 'Smart Office', hoverText: 'Boost your productivity with state-of-the-art smart office devices...', slug: 'smartOffice' },
-  { src: '/smartHealth.jpeg', alt: 'smartHealth', mainText: 'Smart Health', hoverText: 'Take control of your well-being with innovative smart health devices...', slug: 'smartHealth' },
-  { src: '/smartSecurity.jpeg', alt: 'smartSecurity', mainText: 'Smart Security', hoverText: 'Protect what matters most with advanced smart security devices...', slug: 'smartSecurity' },
-  { src: '/smartWearables.jpeg', alt: 'smartWearables', mainText: 'Smart Wearables', hoverText: 'Elevate your lifestyle with versatile smart wearables...', slug: 'smartWearables' },
+  { src: '/home/smartHome.jpeg', alt: 'smartHome', mainText: 'Smart Home', hoverText: 'Revolutionize your living space with cutting-edge smart home devices...', slug: 'smartHome' },
+  { src: '/home/smartOffice.jpeg', alt: 'smartOffice', mainText: 'Smart Office', hoverText: 'Boost your productivity with state-of-the-art smart office devices...', slug: 'smartOffice' },
+  { src: '/home/smartHealth.jpeg', alt: 'smartHealth', mainText: 'Smart Health', hoverText: 'Take control of your well-being with innovative smart health devices...', slug: 'smartHealth' },
+  { src: '/home/smartSecurity.jpeg', alt: 'smartSecurity', mainText: 'Smart Security', hoverText: 'Protect what matters most with advanced smart security devices...', slug: 'smartSecurity' },
+  { src: '/home/smartWearables.jpeg', alt: 'smartWearables', mainText: 'Smart Wearables', hoverText: 'Elevate your lifestyle with versatile smart wearables...', slug: 'smartWearables' },
 ];
 
 export default function Page() {

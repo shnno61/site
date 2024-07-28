@@ -3,31 +3,30 @@ import ImageTextButtonGrid from '@/components/ImageTextButtonGrid';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Live Smart',
-  description: 'Discover smart devices designed to enhance your everyday life.',
+  title: 'Smart Health Devices',
+  description: 'Discover advanced health devices designed to monitor and enhance your well-being.',
   metadataBase: new URL('https://www.myawesomewebsite.com/'),
   openGraph: {
-    title: 'Smart Home',
-    description: 'Discover smart devices designed to enhance your everyday life.',
-    images: ['/smartHome.jpeg'],
-    url: 'https://www.myawesomewebsite.com/smartHome',
-  } 
+    title: 'Smart Health Devices',
+    description: 'Discover advanced health devices designed to monitor and enhance your well-being.',
+    images: ['/smartHealth.jpeg'],
+    url: 'https://www.myawesomewebsite.com/smartHealth',
+  }
 };
 
 const page = () => {
   const heroData = {
-    title: 'Smart Health',
-    description: 'Take control of your well-being with innovative smart health devices. Monitor your health with precision, stay proactive, and make informed decisions to lead a healthier life.',
+    title: 'Smart Health Devices',
+    description: 'Monitor and enhance your well-being with advanced smart health devices for accurate measurements and insights.',
     imageSrc: '/smartHealth.jpeg',
-    imageAlt: 'Smart Home',
+    imageAlt: 'Smart Health Devices',
   };
 
   const cards = [
-    { src: '/smartHome.jpeg', alt: 'Smart Home', mainText: 'Smart Home', description: 'Revolutionize your living space with cutting-edge smart home devices...', slug: 'smartHome' },
-    { src: '/smartOffice.jpeg', alt: 'Smart Office', mainText: 'Smart Office', description: 'Boost your productivity with state-of-the-art smart office devices...', slug: 'smartOffice' },
-    { src: '/smartHealth.jpeg', alt: 'Smart Health', mainText: 'Smart Health', description: 'Take control of your well-being with innovative smart health devices...', slug: 'smartHealth' },
-    { src: '/smartSecurity.jpeg', alt: 'Smart Security', mainText: 'Smart Security', description: 'Protect what matters most with advanced smart security devices...', slug: 'smartSecurity' },
-    { src: '/smartWearables.jpeg', alt: 'Smart Wearables', mainText: 'Smart Wearables', description: 'Elevate your lifestyle with versatile smart wearables...', slug: 'smartWearables' },
+    { src: '/smartHealth/healthMonitoringDevices.jpeg', alt: 'Health Monitoring Devices', mainText: 'Health Monitoring Devices', description: 'Keep track of your health with smart blood pressure and glucose monitors for accurate measurements.', slug: 'healthMonitoringDevices' },
+    { src: '/smartHealth/fitnessDevices.jpeg', alt: 'Fitness Devices', mainText: 'Fitness Devices', description: 'Maintain your fitness with smart scales and activity trackers for a healthier and more active lifestyle.', slug: 'fitnessDevices' },
+    { src: '/smartHealth/sleepDevices.jpeg', alt: 'Sleep Devices', mainText: 'Sleep Devices', description: 'Improve your sleep quality with advanced sleep trackers and smart mattresses for better rest.', slug: 'sleepDevices' },
+    { src: '/smartHealth/airQualityMonitors.jpeg', alt: 'Air Quality Monitors', mainText: 'Air Quality Monitors', description: 'Ensure a healthy environment with smart indoor and wearable air quality monitors for cleaner air quality.', slug: 'airQualityMonitors' },
   ];
 
   return (
