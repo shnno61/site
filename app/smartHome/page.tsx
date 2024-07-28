@@ -31,7 +31,7 @@ const page = () => {
     { src: '/smartHome/smartCleaning.jpeg', alt: 'Smart Cleaning Devices', mainText: 'Smart Cleaning Devices', description: 'Keep your home clean with robot vacuums, smart mops, and air purifiers for easy maintenance.', slug: 'smartCleaning' },
     { src: '/smartHome/smartGarden.jpeg', alt: 'Smart Garden and Outdoor Devices', mainText: 'Smart Garden and Outdoor Devices', description: 'Manage your outdoor space with smart irrigation, efficient lighting, and sensors......', slug: 'smartGarden' },
   ];
-
+ 
   return (
     <main className="bg-gray-900 text-white">
       <Hero {...heroData} />
