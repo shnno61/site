@@ -18,7 +18,7 @@ const page = () => {
   const heroData = {
     title: 'Smart Wearables',
     description: 'Discover innovative wearable devices that combine technology with style for a modern, connected lifestyle.',
-    imageSrc: '/smartWearables.jpeg',
+    imageSrc: '/home/smartWearables.jpeg',
     imageAlt: 'Smart Wearables',
   };
 

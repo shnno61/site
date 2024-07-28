@@ -18,7 +18,7 @@ const page = () => {
   const heroData = {
     title: 'Smart Health Devices',
     description: 'Monitor and enhance your well-being with advanced smart health devices for accurate measurements and insights.',
-    imageSrc: '/smartHealth.jpeg',
+    imageSrc: '/home/smartHealth.jpeg',
     imageAlt: 'Smart Health Devices',
   };
 
